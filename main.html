@@ -6,6 +6,16 @@
     Enter your name: <input type="text" id="fname">
 	
 	<script type="text/javascript" src="./script.js">
+		function capsLetter(str) {
+			return str.toUpperCase()
+		}
+		
+		const myElement = document.getElementById("fname").innerText;
+		
+		let nLetter=capsLetter(myElement);
+		
+		document.getElementById("fname").innerText=nLetter;
+
 	</script>
   </body>
 </html>
