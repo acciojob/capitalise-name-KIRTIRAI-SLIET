@@ -5,4 +5,6 @@ function capsLetter(str) {
 
 const myElement = document.getElementById("fname").innerText;
 
-capsLetter(myElement);
+let nLetter=capsLetter(myElement);
+
+document.getElementById("fname").innerText=nLetter;
